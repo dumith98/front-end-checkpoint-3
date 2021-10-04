@@ -1,0 +1,45 @@
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-index {
+  @extend .parallax;
+  background-image: url("https://wallpaperaccess.com/full/830842.jpg");
+}
+.parallax-sorte {
+  @extend .parallax;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5UQRS8i3WnOR2_mT4Nxc7GG6h20ezBgM_6A&usqp=CAU");
+}
+.parallax-lotr1 {
+  @extend .parallax;
+  background-image: url("https://wallpapercave.com/wp/wp3873604.jpg");
+  min-height: 550px;
+}
+.parallax-lotr2 {
+  @extend .parallax;
+  background-image: url("https://images.alphacoders.com/817/thumb-1920-81771.jpg");
+  min-height: 550px;
+}
+.parallax-lotr3 {
+  @extend .parallax;
+  background-image: url("https://vistapointe.net/images/the-lord-of-the-rings-the-return-of-the-king-1.jpg");
+  min-height: 550px;
+}
+.parallax-brancas {
+  @extend .parallax;
+  background-image: url("https://2.bp.blogspot.com/-eexDj_Uuy3Y/Wvpt0tT89rI/AAAAAAAAAYg/jH0CU0kBPoY7hrA-54PQtjv_v1R3elkMACLcBGAs/w1200-h630-p-k-no-nu/a3zY5G3zsMvVQ7IBfSbdym8jVcH.jpg");
+  min-height: 550px;
+}
+.parallax-ilha {
+  @extend .parallax;
+  background-image: url("https://images4.alphacoders.com/983/thumb-350-98324.jpg");
+  min-height: 550px;
+}
+.parallax-vingadores {
+  @extend .parallax;
+  background-image: url("https://i.pinimg.com/originals/23/98/ff/2398ff41f07366cff111a8ce04fb6315.jpg");
+  min-height: 550px;
+}

@@ -1,0 +1,115 @@
+@import "reset/reset";
+@import "animation/animation";
+@import "parallax-styles/parallax";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-antique-maze-scheme-painted-old-paper-parchment-monochrome-vintage-dungeon-labyrinth-map-as-wallpaper-154553307.jpg");
+}
+header span {
+  color: red;
+}
+header {
+  max-width: 100vw;
+  height: 70px;
+  background-color: brown;
+}
+.in-between {
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+}
+ul {
+  @extend .flex;
+  list-style: none;
+  gap: 15px;
+  padding-top: 10px;
+}
+li {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  transition: transform 0.5s;
+}
+.logo {
+  font-size: 48px;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 5px 2px 10px black;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.item {
+  @extend .box-shadow;
+  background-color: darkgoldenrod;
+}
+
+p {
+  color: goldenrod;
+  font-size: 96px;
+  padding-top: 100px;
+  text-shadow: 5px 2px 15px black;
+}
+.row {
+  gap: 15px;
+  background-color: goldenrod;
+  font-weight: bold;
+  padding: 20px;
+}
+.movie_img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.movie {
+  padding: 20px;
+  background-color: brown;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: transform 0.4s;
+}
+.informa {
+  margin: 20px;
+  background-color: darkgoldenrod;
+  font-size: 64px;
+  padding: 20px;
+}
+.informa-filme {
+  @extend .informa;
+  font-size: 32px;
+}
+.margin-15 {
+  margin: 15px 0px;
+}
+.box-shadow {
+  box-shadow: 5px 2px 10px black;
+}
+form {
+  justify-content: center;
+}
+
+.formulario {
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: right;
+}
+.login {
+  width: 100px;
+}
+.btn {
+  margin-left: 100px;
+}

@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.max-width-vw {
+  max-width: 100vw;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+a:hover {
+  color: black;
+}
+
+.movie:hover {
+  transform: scale(1.3);
+  text-align: center;
+}
+
+.parallax, .parallax-vingadores, .parallax-ilha, .parallax-brancas, .parallax-lotr3, .parallax-lotr2, .parallax-lotr1, .parallax-sorte, .parallax-index {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-index {
+  background-image: url("https://wallpaperaccess.com/full/830842.jpg");
+}
+
+.parallax-sorte {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5UQRS8i3WnOR2_mT4Nxc7GG6h20ezBgM_6A&usqp=CAU");
+}
+
+.parallax-lotr1 {
+  background-image: url("https://wallpapercave.com/wp/wp3873604.jpg");
+  min-height: 550px;
+}
+
+.parallax-lotr2 {
+  background-image: url("https://images.alphacoders.com/817/thumb-1920-81771.jpg");
+  min-height: 550px;
+}
+
+.parallax-lotr3 {
+  background-image: url("https://vistapointe.net/images/the-lord-of-the-rings-the-return-of-the-king-1.jpg");
+  min-height: 550px;
+}
+
+.parallax-brancas {
+  background-image: url("https://2.bp.blogspot.com/-eexDj_Uuy3Y/Wvpt0tT89rI/AAAAAAAAAYg/jH0CU0kBPoY7hrA-54PQtjv_v1R3elkMACLcBGAs/w1200-h630-p-k-no-nu/a3zY5G3zsMvVQ7IBfSbdym8jVcH.jpg");
+  min-height: 550px;
+}
+
+.parallax-ilha {
+  background-image: url("https://images4.alphacoders.com/983/thumb-350-98324.jpg");
+  min-height: 550px;
+}
+
+.parallax-vingadores {
+  background-image: url("https://i.pinimg.com/originals/23/98/ff/2398ff41f07366cff111a8ce04fb6315.jpg");
+  min-height: 550px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-antique-maze-scheme-painted-old-paper-parchment-monochrome-vintage-dungeon-labyrinth-map-as-wallpaper-154553307.jpg");
+}
+
+header span {
+  color: red;
+}
+
+header {
+  max-width: 100vw;
+  height: 70px;
+  background-color: brown;
+}
+
+.in-between {
+  justify-content: space-between;
+}
+
+.flex, ul {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+li {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  transition: transform 0.5s;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 5px 2px 10px black;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.item {
+  background-color: darkgoldenrod;
+}
+
+p {
+  color: goldenrod;
+  font-size: 96px;
+  padding-top: 100px;
+  text-shadow: 5px 2px 15px black;
+}
+
+.row {
+  gap: 15px;
+  background-color: goldenrod;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.movie_img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.movie {
+  padding: 20px;
+  background-color: brown;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: transform 0.4s;
+}
+
+.informa, .informa-filme {
+  margin: 20px;
+  background-color: darkgoldenrod;
+  font-size: 64px;
+  padding: 20px;
+}
+
+.informa-filme {
+  font-size: 32px;
+}
+
+.margin-15 {
+  margin: 15px 0px;
+}
+
+.box-shadow, .item {
+  box-shadow: 5px 2px 10px black;
+}
+
+form {
+  justify-content: center;
+}
+
+.formulario {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: right;
+}
+
+.login {
+  width: 100px;
+}
+
+.btn {
+  margin-left: 100px;
+}/*# sourceMappingURL=style.css.map */
